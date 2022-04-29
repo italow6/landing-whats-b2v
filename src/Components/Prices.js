@@ -39,7 +39,7 @@ const PriceTimeTypography = styled(Typography)({
   lineHeight: "27px",
   letterSpacing: "0.025em",
 
-  color: "#4783F0",
+  color: "#264C81",
 });
 
 const PriceListStack = styled(Stack)({
@@ -78,7 +78,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               width: "auto",
               height: "108px",
 
-              background: "#4783F0",
+              background: "#264C81",
               borderRadius: "20px 20px 0px 0px",
             }}
           >
@@ -99,8 +99,8 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
                 alignItems: "baseline",
               }}
             >
-              <PriceTypography sx={{ color: "#4783F0" }}>R$ 219,90</PriceTypography>
-              <PriceTimeTypography sx={{ color: "#4783F0" }}>
+              <PriceTypography sx={{ color: "#264C81" }}>R$ 219,90</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
                 /mês
               </PriceTimeTypography>
             </Box>
@@ -126,7 +126,13 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Sem limite de mensagens ou atendimentos
+                Sem limite de mensagens
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de atendimentos
               </TextTypography>
             </PriceListStack>
             {/* <PriceListStack direction="row">
@@ -138,7 +144,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                20GB Armazenamento / Backup
+                10GB Armazenamento / Backup
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
@@ -193,7 +199,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               width: "auto",
               height: "108px",
 
-              background: "#4783F0",
+              background: "#264C81",
               borderRadius: "20px 20px 0px 0px",
             }}
           >
@@ -214,8 +220,8 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
                 alignItems: "baseline",
               }}
             >
-              <PriceTypography sx={{ color: "#4783F0" }}>R$ 399,90</PriceTypography>
-              <PriceTimeTypography sx={{ color: "#4783F0" }}>
+              <PriceTypography sx={{ color: "#264C81" }}>R$ 399,90</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
                 /mês
               </PriceTimeTypography>
             </Box>
@@ -223,13 +229,13 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                2 Número de telefone
+                2 Números de telefone
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                2 Administrador
+                2 Administradores
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
@@ -241,7 +247,13 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Sem limite de mensagens ou atendimentos
+                Sem limite de mensagens
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de atendimentos
               </TextTypography>
             </PriceListStack>
             {/* <PriceListStack direction="row">
@@ -308,7 +320,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               width: "auto",
               height: "108px",
 
-              background: "#4783F0",
+              background: "#264C81",
               borderRadius: "20px 20px 0px 0px",
             }}
           >
@@ -329,8 +341,8 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
                 alignItems: "baseline",
               }}
             >
-              <PriceTypography sx={{ color: "#4783F0" }}>R$ 739,90</PriceTypography>
-              <PriceTimeTypography sx={{ color: "#4783F0" }}>
+              <PriceTypography sx={{ color: "#264C81" }}>R$ 739,90</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
                 /mês
               </PriceTimeTypography>
             </Box>
@@ -338,13 +350,13 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                5 Número de telefone
+                5 Números de telefone
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                5 Administrador
+                5 Administradores
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
@@ -356,7 +368,13 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Sem limite de mensagens ou atendimentos
+                Sem limite de mensagens
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de atendimentos
               </TextTypography>
             </PriceListStack>
             {/* <PriceListStack direction="row">
@@ -423,7 +441,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               width: "auto",
               height: "108px",
 
-              background: "#4783F0",
+              background: "#264C81",
               borderRadius: "20px 20px 0px 0px",
             }}
           >
@@ -444,8 +462,8 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
                 alignItems: "baseline",
               }}
             >
-              <PriceTypography sx={{ color: "#4783F0" }}>R$ 1199,90</PriceTypography>
-              <PriceTimeTypography sx={{ color: "#4783F0" }}>
+              <PriceTypography sx={{ color: "#264C81" }}>R$ 1.199,90</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
                 /mês
               </PriceTimeTypography>
             </Box>
@@ -453,13 +471,13 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                10 Número de telefone
+                10 Números de telefone
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                15 Administrador
+                15 Administradores
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
@@ -471,7 +489,13 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Sem limite de mensagens ou atendimentos
+                Sem limite de mensagens
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de atendimentos
               </TextTypography>
             </PriceListStack>
             {/* <PriceListStack direction="row">
@@ -538,7 +562,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               width: "auto",
               height: "108px",
 
-              background: "#4783F0",
+              background: "#264C81",
               borderRadius: "20px 20px 0px 0px",
             }}
           >
@@ -559,8 +583,8 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
                 alignItems: "baseline",
               }}
             >
-              <PriceTypography sx={{ color: "#4783F0" }}>Valor a consultar</PriceTypography>
-              <PriceTimeTypography sx={{ color: "#4783F0" }}>
+              <PriceTypography sx={{ color: "#264C81" }}>Valor a consultar</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
               
               </PriceTimeTypography>
             </Box>
@@ -586,7 +610,13 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Sem limite de mensagens ou atendimentos
+                Sem limite de mensagens
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de atendimentos
               </TextTypography>
             </PriceListStack>
             {/* <PriceListStack direction="row">
@@ -610,17 +640,18 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Separação de acessos por nível (Administrador e Usuário)
+                Suporte 24/7* (Exclusivo PRIME)
               </TextTypography>
               
             </PriceListStack>
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Suporte 24/7** (Exclusivo cliente PRIME)
+                Separação de acessos por nível (Administrador e Usuário)
               </TextTypography>
               
             </PriceListStack>
+            
 
             <ContainedButton
               sx={{ marginTop: "25px", textAlign: "center" }}
@@ -629,6 +660,128 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               color="success"
             >
               <ButtonTypography> Comprar </ButtonTypography>
+            </ContainedButton>
+          </CardContent>
+        </Card>
+      </Grid>
+      <Grid
+        item
+        lg={4}
+        md={6}
+        xs={12}
+        sx={{
+          zIndex: "20",
+          filter: "drop-shadow(11px 14px 17px rgba(37, 56, 92, 0.29))",
+          paddingBottom: "30px",
+        }}
+      >
+        <Card
+          sx={{
+            maxWidth: 400,
+            height: "auto",
+            borderRadius: "20px 20px 20px 20px",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              width: "auto",
+              height: "108px",
+
+              background: "#264C81",
+              borderRadius: "20px 20px 0px 0px",
+            }}
+          >
+            <PriceTitleTypography
+              sx={{
+                paddingTop: "35px",
+              }}
+            >
+              {" "}
+              TESTE GRÁTIS{" "}
+            </PriceTitleTypography>
+          </Box>
+          <CardContent sx={{ textAlign: "center" }}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "baseline",
+              }}
+            >
+              <PriceTypography sx={{ color: "#264C81" }}>3 dias</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
+              
+              </PriceTimeTypography>
+            </Box>
+
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                1 Número de telefone
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                1 Administrador
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                3 Usuários
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de mensagens
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de atendimentos
+              </TextTypography>
+            </PriceListStack>
+            {/* <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Comunidade no GitHub
+              </TextTypography>
+            </PriceListStack> */}
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                10GB Armazenamento / Backup
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Transferência de chamados
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto", marginTop: "5px" }}>
+                Separação de acessos por nível (Administrador e Usuário)
+              </TextTypography>
+              
+            </PriceListStack>
+            
+
+            <ContainedButton
+              sx={{ marginTop: "25px", textAlign: "center" }}
+              variant="contained"
+              href="#"
+              color="success"
+            >
+              <ButtonTypography> Testar </ButtonTypography>
             </ContainedButton>
           </CardContent>
         </Card>
